@@ -1,71 +1,80 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
-  
+
 }
-.navbar{
+
+.navbar {
     margin: 0px 120px;
     margin-top: 87px;
     font-size: 16px;
     font-weight: 600px;
     display: flex;
     justify-content: space-between;
-    
+
 
 }
-#influencer-product{
-    font-size:24px ;
+
+#influencer-product {
+    font-size: 24px;
     font-weight: 700px;
 }
 
 
-.nav-item li{
+.nav-item li {
     display: inline;
     list-style: none;
     padding: 24px;
-    
-} 
-.menu-name{
+
+}
+
+.menu-name {
     text-decoration: none;
     color: black;
 }
 
 /* 1st container start  */
 
-.first-container{
+.first-container {
     margin-left: 120px;
     margin-right: 165px;
     display: flex;
     justify-content: space-between;
 }
-.influencer{
+
+.influencer {
     display: flex;
-    flex-direction:column;
-    row-gap:16px;
-    Width:582px;
+    flex-direction: column;
+    row-gap: 16px;
+    Width: 582px;
     Height: 270px;
-    margin-top: 285px;
-    
-    
+    margin-top: 220px;
+
+
 }
-.second-title{
+
+.second-title {
     font-size: 52px;
     font-weight: 700;
 }
-.title-paragraph{
+
+.title-paragraph {
     font-weight: 600;
-        font-size: 16px;
+    font-size: 16px;
 }
-.button{
+
+.button {
     margin-top: 10px;
 }
-.pre-book{
+
+.pre-book {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
@@ -73,34 +82,106 @@ body{
     border-radius: 39px;
     background-image: linear-gradient(#E02C6D, #E02C6D);
 }
-.camera-banner img{
+
+.camera-banner img {
     width: 440px;
     height: 414px;
-    margin-top: 209px;
+    margin-top: 144px;
+    border-radius: 220px;
+    box-shadow: 0 0 5px #AAAAAA;
 }
 
 /* 2nd container start  */
-.second-container{
+.second-container {
     margin-top: 69px;
     margin-left: 165px;
     margin-right: 165px;
     box-shadow: 0 0 5px #AAAAAA;
-   
-    
+
+
 }
-.influencer-comapnies{
+
+.influencer-comapnies {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 36px 62px;
-    
 
-    
+
+
 }
 
-.company-name  .company-img{
-Width: 55.05px;
-Height: 31.06px;
+.company-name .company-img {
+    Width: 55.05px;
+    Height: 31.06px;
+}
+
+/* third container start  */
+.third-container {
+    margin: 100px 112px;
+    padding-left: 28px;
+
+}
+
+.collections {
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
 
 
+}
+
+.collection {
+    justify-items: center;
+
+    width: 329px;
+    height: 486px;
+    box-shadow: 0px 0px 40px rgb(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.collection-banner img {
+    padding: 17px 0px 17px 14px;
+    Width: 300px;
+    Height: 256px;
+    border-radius: 5px;
+}
+
+.collection-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191F;
+    padding: 6px 0;
+}
+
+.collection-price {
+    font-size: 24px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+.collection-info .filled {
+    color: #FB8200;
+    width: 11.07px;
+    height: 10.32px;
+}
+
+.collection-info .emty {
+    color: #FB8200;
+    width: 11.07px;
+    height: 10.32px;
+
+}
+
+.collection-info .ratting {
+    width: 11.07px;
+    height: 10.32px;
+    font-Weight: 700;
+    Line-height: 22px;
+    padding-left: 8px;
 }
