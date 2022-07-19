@@ -164,7 +164,10 @@ body {
     color: rgba(0, 0, 0, 0.87);
 
 }
+.collection-info{
+    padding-left: 14px;
 
+}
 .collection-info .filled {
     color: #FB8200;
     width: 11.07px;
@@ -184,4 +187,13 @@ body {
     font-Weight: 700;
     Line-height: 22px;
     padding-left: 8px;
+}
+
+.collection-info .course-duration {
+    margin-top: 6px;
+
+    Line-height: 20.02px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
 }
