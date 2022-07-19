@@ -271,4 +271,18 @@ footer {
         flex-wrap: wrap;
     }
 
+    .third-container .collections {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fourth-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .fourth-container #last-div{
+       margin-top: 100px;
+    }
 }
