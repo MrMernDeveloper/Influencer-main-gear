@@ -264,11 +264,15 @@ footer {
     .first-container {
         flex-wrap: wrap;
         width: 100%;
+        margin: auto;
     }
-
-    .influencer-comapnies {
+.influencer-comapnies{
+    flex-wrap: wrap;
+    
+}
+    .third-container{
         width: 100%;
-        flex-wrap: wrap;
+        margin: auto;
     }
 
     .third-container .collections {
@@ -279,6 +283,10 @@ footer {
 
     .fourth-container {
         flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    .fourth-container{
         width: 100%;
     }
 
