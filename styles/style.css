@@ -35,6 +35,9 @@ body{
     text-decoration: none;
     color: black;
 }
+
+/* 1st container start  */
+
 .first-container{
     margin-left: 120px;
     margin-right: 165px;
@@ -74,4 +77,30 @@ body{
     width: 440px;
     height: 414px;
     margin-top: 209px;
+}
+
+/* 2nd container start  */
+.second-container{
+    margin-top: 69px;
+    margin-left: 165px;
+    margin-right: 165px;
+    box-shadow: 0 0 5px #AAAAAA;
+   
+    
+}
+.influencer-comapnies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 62px;
+    
+
+    
+}
+
+.company-name  .company-img{
+Width: 55.05px;
+Height: 31.06px;
+
+
 }
