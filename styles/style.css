@@ -259,6 +259,7 @@ footer {
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-between;
+        
     }
 
     .first-container {
@@ -268,6 +269,7 @@ footer {
     }
 .influencer-comapnies{
     flex-wrap: wrap;
+    width: 100;
     
 }
     .third-container{
