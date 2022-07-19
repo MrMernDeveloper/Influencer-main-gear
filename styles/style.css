@@ -92,16 +92,13 @@ body {
 }
 
 /* 2nd container start  */
-.second-container {
+.second-container {}
+
+.influencer-comapnies {
     margin-top: 69px;
     margin-left: 165px;
     margin-right: 165px;
     box-shadow: 0 0 5px #AAAAAA;
-
-
-}
-
-.influencer-comapnies {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -227,38 +224,51 @@ body {
     padding-left: 96px;
     margin-top: 0px;
 }
-footer{
-   background-color: #030929;
+
+footer {
+    background-color: #030929;
 }
-.footer-div{
+
+.footer-div {
     padding: 50px 0px;
     margin: auto;
     text-align: center;
-   color: #FFFFFF;
+    color: #FFFFFF;
 }
-#footer-title{
+
+#footer-title {
     font-weight: 700;
     font-size: 24px;
 }
-.footer-paragraph{
-    padding:10px 0;
+
+.footer-paragraph {
+    padding: 10px 0;
     font-weight: 700px;
     font-size: 14px;
 }
-.fa-brands{
+
+.fa-brands {
     padding-top: 10px;
     padding-left: 10px;
     font-size: 26px;
 }
 
 /* media query  */
-@media  only screen and (max-width:688px) {
-    .navbar{
+@media only screen and (max-width:688px) {
+    .navbar {
+        width: 100%;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .first-container{
+
+    .first-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .influencer-comapnies {
+        width: 100%;
         flex-wrap: wrap;
     }
-    
+
 }
