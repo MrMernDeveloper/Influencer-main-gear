@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+.navbar{
+    margin: 0px 120px;
+    margin-top: 87px;
+    font-size: 16px;
+    font-weight: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#influencer-product{
+    font-size:24px ;
+    font-weight: 700px;
+}
+
+
+.nav-item li{
+    display: inline;
+    list-style: none;
+    padding: 24px;
+    
+} 
+.menu-name{
+    text-decoration: none;
+    color: black;
+}
+.first-container{
+    margin-left: 120px;
+    margin-right: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+.influencer{
+    display: flex;
+    flex-direction:column;
+    row-gap:16px;
+    Width:582px;
+    Height: 270px;
+    margin-top: 285px;
+    
+    
+}
+.second-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.title-paragraph{
+    font-weight: 600;
+        font-size: 16px;
+}
+.button{
+    margin-top: 10px;
+}
+.pre-book{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 39px;
+    background-image: linear-gradient(#E02C6D, #E02C6D);
+}
+.camera-banner img{
+    width: 440px;
+    height: 414px;
+    margin-top: 209px;
+}
