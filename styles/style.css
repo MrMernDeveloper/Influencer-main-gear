@@ -250,3 +250,15 @@ footer{
     padding-left: 10px;
     font-size: 26px;
 }
+
+/* media query  */
+@media  only screen and (max-width:688px) {
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .first-container{
+        flex-wrap: wrap;
+    }
+    
+}
